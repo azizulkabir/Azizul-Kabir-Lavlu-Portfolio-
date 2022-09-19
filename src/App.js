@@ -9,7 +9,7 @@ import Blog from './Component/Blog/Blog';
 
 function App() {
   return (
-    <div  className=' bg-dark h-100 w-100'>
+    <div  className=' bg-black h-100 w-100'>
       <Header></Header>
      <Routes>
       <Route path='/' element={<Home></Home>}></Route>

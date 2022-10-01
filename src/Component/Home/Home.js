@@ -24,9 +24,9 @@ const Home = () => {
                     </div>
                     <div></div>
                 </div>
-                <div className='col-lg-4 col-md-6 col-sm-12 '>
-                    <div className='row '>
-                        <div className='text-warning p-1 col-lg-5 col-md-4 col-sm-4'>
+                <div className='col-lg-4 col-md-6 col-sm-6 col-xs-4'>
+                    <div className='row'>
+                        <div className='text-warning p-1 col-lg-5 col-md-4 col-sm-6 col-5'>
                             <div className="flip-card  w-100">
                                 <div className="flip-card-inner">
                                     <div className="flip-card-front py-3">
@@ -38,10 +38,10 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='text-warning p-1  col-lg-5 col-md-4 col-sm-4'>
+                        <div className='text-warning p-1  col-lg-5 col-md-4 col-sm-6 col-5'>
                             <div className="flip-card w-100">
                                 <div className="flip-card-inner">
-                                    <div className="flip-card-front py-3">
+                                    <div className="flip-card-front  py-3 p-2">
                                         <img className=' w-50' src={githubImg} alt="Avatar" />
                                     </div>
                                     <div className="flip-card-back d-flex align-items-center justify-content-center">
@@ -54,10 +54,10 @@ const Home = () => {
 
                     </div>
                     <div className='row '>
-                        <div className='text-warning p-1  col-lg-5 col-md-4 col-sm-4'>
+                        <div className='text-warning p-1  col-lg-5 col-md-4 col-sm-6 col-5'>
                             <div className="flip-card w-100">
                                 <div className="flip-card-inner">
-                                    <div className="flip-card-front py-3">
+                                    <div className="flip-card-front  py-3">
                                         <img className=' w-50' src={linkedinImg} alt="Avatar" />
                                     </div>
                                     <div className="flip-card-back d-flex align-items-center justify-content-center">
@@ -67,11 +67,11 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='text-warning p-1  col-lg-5 col-md-4 col-sm-4'>
+                        <div className='text-warning p-1  col-lg-5 col-md-4 col-sm-6 col-5'>
                             <div className="flip-card w-100">
                                 <div className="flip-card-inner">
-                                    <div className="flip-card-front py-3">
-                                        <img className=' w-50' src={googleImg} alt="Avatar" />
+                                    <div className="flip-card-front  py-3">
+                                        <img className=' w-50 w-md-25' src={googleImg} alt="Avatar" />
                                     </div>
                                     <div className="flip-card-back d-flex align-items-center justify-content-center">
                                         <a className=' text-decoration-none text-white ' href="https://www.youtube.com/channel/UCME9cRUWVVdPstS1nWttbkw"><h5>YouTube</h5></a>

@@ -25,15 +25,15 @@ const Home = () => {
                     <div></div>
                 </div>
                 <div className='col-lg-4 col-md-6 col-sm-6 col-xs-4'>
-                    <div className='row'>
+                    <div className='row  '>
                         <div className='text-warning p-1 col-lg-5 col-md-4 col-sm-6 col-5'>
                             <div className="flip-card  w-100">
                                 <div className="flip-card-inner">
                                     <div className="flip-card-front py-3">
-                                        <img className=' w-50 '  src={fbImg} alt="Avatar" />
+                                        <img className=' w-50 ' src={fbImg} alt="Avatar" />
                                     </div>
                                     <div className="flip-card-back d-flex align-items-center justify-content-center ">
-                                        <a  className='text-decoration-none text-white' href="https://www.facebook.com/redowan2"><h5>Facebook </h5></a>
+                                        <a className='text-decoration-none text-white' href="https://www.facebook.com/redowan2"><h5>Facebook </h5></a>
                                     </div>
                                 </div>
                             </div>
@@ -41,7 +41,7 @@ const Home = () => {
                         <div className='text-warning p-1  col-lg-5 col-md-4 col-sm-6 col-5'>
                             <div className="flip-card w-100">
                                 <div className="flip-card-inner">
-                                    <div className="flip-card-front  py-3 p-2">
+                                    <div className="flip-card-front py-sm-3 p-2">
                                         <img className=' w-50' src={githubImg} alt="Avatar" />
                                     </div>
                                     <div className="flip-card-back d-flex align-items-center justify-content-center">
@@ -57,7 +57,7 @@ const Home = () => {
                         <div className='text-warning p-1  col-lg-5 col-md-4 col-sm-6 col-5'>
                             <div className="flip-card w-100">
                                 <div className="flip-card-inner">
-                                    <div className="flip-card-front  py-3">
+                                    <div className="flip-card-front py-3">
                                         <img className=' w-50' src={linkedinImg} alt="Avatar" />
                                     </div>
                                     <div className="flip-card-back d-flex align-items-center justify-content-center">
@@ -70,7 +70,7 @@ const Home = () => {
                         <div className='text-warning p-1  col-lg-5 col-md-4 col-sm-6 col-5'>
                             <div className="flip-card w-100">
                                 <div className="flip-card-inner">
-                                    <div className="flip-card-front  py-3">
+                                    <div className="flip-card-front py-3">
                                         <img className=' w-50 w-md-25' src={googleImg} alt="Avatar" />
                                     </div>
                                     <div className="flip-card-back d-flex align-items-center justify-content-center">
@@ -82,6 +82,28 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div>
+                <form className=' w-50 mx-auto text-white '>
+                    <h3>Please Fill-up The Form And Submit </h3>
+                    <div class="mb-3">
+                        <label for="exampleInputText" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" id="exampleInputText" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputText" class="form-label">Mobile Number</label>
+                        <input type="number" class="form-control" id="exampleInputText" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Your Text</label>
+                        <input type="text" class="form-control" id="exampleInputText" />
+                    </div>
+                    <button type="submit" class="btn btn-secondary">Submit</button>
+                </form>
             </div>
         </div>
     );

@@ -32,8 +32,8 @@ const Home = () => {
                                     <div className="flip-card-front py-3">
                                         <img className=' w-50 '  src={fbImg} alt="Avatar" />
                                     </div>
-                                    <div className="flip-card-back">
-                                        <a  className='text-decoration-none' href="https://www.facebook.com/redowan2"><h5>Facebook</h5></a>
+                                    <div className="flip-card-back d-flex align-items-center justify-content-center ">
+                                        <a  className='text-decoration-none text-white' href="https://www.facebook.com/redowan2"><h5>Facebook </h5></a>
                                     </div>
                                 </div>
                             </div>
@@ -44,8 +44,8 @@ const Home = () => {
                                     <div className="flip-card-front py-3">
                                         <img className=' w-50' src={githubImg} alt="Avatar" />
                                     </div>
-                                    <div className="flip-card-back">
-                                        <a className='text-decoration-none' href="https://github.com/azizulkabir"><h5>Github</h5></a>
+                                    <div className="flip-card-back d-flex align-items-center justify-content-center">
+                                        <a className='text-decoration-none text-white' href="https://github.com/azizulkabir"><h5>Github</h5></a>
 
                                     </div>
                                 </div>
@@ -60,8 +60,8 @@ const Home = () => {
                                     <div className="flip-card-front py-3">
                                         <img className=' w-50' src={linkedinImg} alt="Avatar" />
                                     </div>
-                                    <div className="flip-card-back">
-                                        <a className='text-decoration-none' href="https://www.linkedin.com/in/azizulkabirlavlu/"><h5>LinkedIn</h5></a>
+                                    <div className="flip-card-back d-flex align-items-center justify-content-center">
+                                        <a className='text-decoration-none text-white' href="https://www.linkedin.com/in/azizulkabirlavlu/"><h5>LinkedIn</h5></a>
 
                                     </div>
                                 </div>
@@ -73,8 +73,8 @@ const Home = () => {
                                     <div className="flip-card-front py-3">
                                         <img className=' w-50' src={googleImg} alt="Avatar" />
                                     </div>
-                                    <div className="flip-card-back">
-                                        <a className='text-decoration-none' href="https://www.youtube.com/channel/UCME9cRUWVVdPstS1nWttbkw"><h5>YouTube</h5></a>
+                                    <div className="flip-card-back d-flex align-items-center justify-content-center">
+                                        <a className=' text-decoration-none text-white ' href="https://www.youtube.com/channel/UCME9cRUWVVdPstS1nWttbkw"><h5>YouTube</h5></a>
 
                                     </div>
                                 </div>

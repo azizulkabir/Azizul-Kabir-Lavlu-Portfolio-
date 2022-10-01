@@ -33,7 +33,7 @@ const Home = () => {
                                         <img className=' w-50 '  src={fbImg} alt="Avatar" />
                                     </div>
                                     <div className="flip-card-back">
-                                        <a href="https://www.facebook.com/redowan2"><h1>John Doe</h1></a>
+                                        <a  className='text-decoration-none' href="https://www.facebook.com/redowan2"><h5>Facebook</h5></a>
                                     </div>
                                 </div>
                             </div>
@@ -45,7 +45,7 @@ const Home = () => {
                                         <img className=' w-50' src={githubImg} alt="Avatar" />
                                     </div>
                                     <div className="flip-card-back">
-                                        <h1>John Doe</h1>
+                                        <a className='text-decoration-none' href="https://github.com/azizulkabir"><h5>Github</h5></a>
 
                                     </div>
                                 </div>
@@ -61,7 +61,7 @@ const Home = () => {
                                         <img className=' w-50' src={linkedinImg} alt="Avatar" />
                                     </div>
                                     <div className="flip-card-back">
-                                        <h1>John Doe</h1>
+                                        <a className='text-decoration-none' href="https://www.linkedin.com/in/azizulkabirlavlu/"><h5>LinkedIn</h5></a>
 
                                     </div>
                                 </div>
@@ -74,7 +74,7 @@ const Home = () => {
                                         <img className=' w-50' src={googleImg} alt="Avatar" />
                                     </div>
                                     <div className="flip-card-back">
-                                        <h1>John Doe</h1>
+                                        <a className='text-decoration-none' href="https://www.youtube.com/channel/UCME9cRUWVVdPstS1nWttbkw"><h5>YouTube</h5></a>
 
                                     </div>
                                 </div>

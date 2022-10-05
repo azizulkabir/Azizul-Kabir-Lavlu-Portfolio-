@@ -31,15 +31,15 @@ const About = () => {
 
                             Comfortable:
                             <div className='border bg-dark p-2 rounded '>
-                            Node.js Express-Node.js MongoDB Json Sass Firebase
+                                Node.js Express-Node.js MongoDB Json Sass Firebase
                             </div>
                             Familiar:
                             <div className='border bg-dark p-2 rounded '>
-                            ReactNative Redux.js TypeScript Tailwind Python C++
+                                ReactNative Redux.js TypeScript Tailwind Python C++
                             </div>
-                            Expertise:
+                            Tools:
                             <div className='border bg-dark p-2 rounded '>
-                                JavaScript ES6 React.js REST API React Bootstrap REACT ROUTER Bootstrap HTML CSS Material-Ul
+                                Git Node NPM Webpack VSCode Firebase Netlify Heroku ChromeDevTool
                             </div>
                         </div>
                     </div>

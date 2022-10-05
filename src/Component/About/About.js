@@ -35,7 +35,7 @@ const About = () => {
                             </div>
                             Familiar:
                             <div className='border bg-dark p-2 rounded '>
-                                JavaScript ES6 React.js REST API React Bootstrap REACT ROUTER Bootstrap HTML CSS Material-Ul
+                            ReactNative Redux.js TypeScript Tailwind Python C++
                             </div>
                             Expertise:
                             <div className='border bg-dark p-2 rounded '>

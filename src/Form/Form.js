@@ -2,8 +2,8 @@ import React from 'react';
 
 const Form = () => {
     return (
-        <div>
-            <form className=' w-50 mx-auto text-white '>
+        <div className='col-lg-6 col-md-6 mx-auto p-4'>
+            <form className='w-100  text-white '>
                     <h3>Please Fill-up The Form And Submit </h3>
                     <div class="mb-3">
                         <label for="exampleInputText" class="form-label">Your Name</label>
